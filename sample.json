@@ -1,0 +1,27 @@
+{
+    "menu": {
+        "id": "file",
+        "value": "File",
+        "popup": {
+            "menuitem": [
+                {"value": "New", "onclick": "CreateNewDoc()"},
+                {"value": "Open", "onclick": "OpenDoc()"},
+                {"value": "Close", "onclick": "CloseDoc()"}
+            ]
+        }
+    },
+    "more tests": {
+        "escaped string": "\"hello\t\\ wo\t\trld",
+        "empty object": {},
+        "empty array": [],
+        "special values": {
+            "true": true,
+            "false": false,
+            "null": null
+        },
+        "numbers": {
+            "num1": -0.123e-3,
+            "num2": 19234E+42
+        }
+    }
+}
